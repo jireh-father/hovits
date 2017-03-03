@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetScheduleByGroupResponse xmlns="http://tempuri.org/">
+            <GetScheduleByGroupResult>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(예약완료)</GroupName>
+                    <PlayDate>20150911</PlayDate>
+                    <PlayDays>11</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(57)</GroupName>
+                    <PlayDate>20150911</PlayDate>
+                    <PlayDays>11</PlayDays>
+                    <ProductRemainCount>57</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(11)</GroupName>
+                    <PlayDate>20150911</PlayDate>
+                    <PlayDays>11</PlayDays>
+                    <ProductRemainCount>11</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(153)</GroupName>
+                    <PlayDate>20150911</PlayDate>
+                    <PlayDays>11</PlayDays>
+                    <ProductRemainCount>153</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(예약완료)</GroupName>
+                    <PlayDate>20150911</PlayDate>
+                    <PlayDays>11</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(예약완료)</GroupName>
+                    <PlayDate>20150912</PlayDate>
+                    <PlayDays>12</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(예약완료)</GroupName>
+                    <PlayDate>20150912</PlayDate>
+                    <PlayDays>12</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(예약완료)</GroupName>
+                    <PlayDate>20150912</PlayDate>
+                    <PlayDays>12</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(예약완료)</GroupName>
+                    <PlayDate>20150912</PlayDate>
+                    <PlayDays>12</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(예약완료)</GroupName>
+                    <PlayDate>20150912</PlayDate>
+                    <PlayDays>12</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(6)</GroupName>
+                    <PlayDate>20150913</PlayDate>
+                    <PlayDays>13</PlayDays>
+                    <ProductRemainCount>6</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(70)</GroupName>
+                    <PlayDate>20150913</PlayDate>
+                    <PlayDays>13</PlayDays>
+                    <ProductRemainCount>70</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(21)</GroupName>
+                    <PlayDate>20150913</PlayDate>
+                    <PlayDays>13</PlayDays>
+                    <ProductRemainCount>21</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(179)</GroupName>
+                    <PlayDate>20150913</PlayDate>
+                    <PlayDays>13</PlayDays>
+                    <ProductRemainCount>179</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(14)</GroupName>
+                    <PlayDate>20150913</PlayDate>
+                    <PlayDays>13</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(15)</GroupName>
+                    <PlayDate>20150914</PlayDate>
+                    <PlayDays>14</PlayDays>
+                    <ProductRemainCount>15</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(67)</GroupName>
+                    <PlayDate>20150914</PlayDate>
+                    <PlayDays>14</PlayDays>
+                    <ProductRemainCount>67</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(26)</GroupName>
+                    <PlayDate>20150914</PlayDate>
+                    <PlayDays>14</PlayDays>
+                    <ProductRemainCount>26</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(182)</GroupName>
+                    <PlayDate>20150914</PlayDate>
+                    <PlayDays>14</PlayDays>
+                    <ProductRemainCount>182</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(15)</GroupName>
+                    <PlayDate>20150914</PlayDate>
+                    <PlayDays>14</PlayDays>
+                    <ProductRemainCount>15</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(13)</GroupName>
+                    <PlayDate>20150915</PlayDate>
+                    <PlayDays>15</PlayDays>
+                    <ProductRemainCount>13</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(68)</GroupName>
+                    <PlayDate>20150915</PlayDate>
+                    <PlayDays>15</PlayDays>
+                    <ProductRemainCount>68</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(24)</GroupName>
+                    <PlayDate>20150915</PlayDate>
+                    <PlayDays>15</PlayDays>
+                    <ProductRemainCount>24</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(182)</GroupName>
+                    <PlayDate>20150915</PlayDate>
+                    <PlayDays>15</PlayDays>
+                    <ProductRemainCount>182</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(14)</GroupName>
+                    <PlayDate>20150915</PlayDate>
+                    <PlayDays>15</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(10)</GroupName>
+                    <PlayDate>20150916</PlayDate>
+                    <PlayDays>16</PlayDays>
+                    <ProductRemainCount>10</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(67)</GroupName>
+                    <PlayDate>20150916</PlayDate>
+                    <PlayDays>16</PlayDays>
+                    <ProductRemainCount>67</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(23)</GroupName>
+                    <PlayDate>20150916</PlayDate>
+                    <PlayDays>16</PlayDays>
+                    <ProductRemainCount>23</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(181)</GroupName>
+                    <PlayDate>20150916</PlayDate>
+                    <PlayDays>16</PlayDays>
+                    <ProductRemainCount>181</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(14)</GroupName>
+                    <PlayDate>20150916</PlayDate>
+                    <PlayDays>16</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(12)</GroupName>
+                    <PlayDate>20150917</PlayDate>
+                    <PlayDays>17</PlayDays>
+                    <ProductRemainCount>12</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(65)</GroupName>
+                    <PlayDate>20150917</PlayDate>
+                    <PlayDays>17</PlayDays>
+                    <ProductRemainCount>65</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(20)</GroupName>
+                    <PlayDate>20150917</PlayDate>
+                    <PlayDays>17</PlayDays>
+                    <ProductRemainCount>20</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(177)</GroupName>
+                    <PlayDate>20150917</PlayDate>
+                    <PlayDays>17</PlayDays>
+                    <ProductRemainCount>177</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(11)</GroupName>
+                    <PlayDate>20150917</PlayDate>
+                    <PlayDays>17</PlayDays>
+                    <ProductRemainCount>11</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(2)</GroupName>
+                    <PlayDate>20150918</PlayDate>
+                    <PlayDays>18</PlayDays>
+                    <ProductRemainCount>2</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(58)</GroupName>
+                    <PlayDate>20150918</PlayDate>
+                    <PlayDays>18</PlayDays>
+                    <ProductRemainCount>58</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(7)</GroupName>
+                    <PlayDate>20150918</PlayDate>
+                    <PlayDays>18</PlayDays>
+                    <ProductRemainCount>7</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(171)</GroupName>
+                    <PlayDate>20150918</PlayDate>
+                    <PlayDays>18</PlayDays>
+                    <ProductRemainCount>171</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(10)</GroupName>
+                    <PlayDate>20150918</PlayDate>
+                    <PlayDays>18</PlayDays>
+                    <ProductRemainCount>10</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(예약완료)</GroupName>
+                    <PlayDate>20150919</PlayDate>
+                    <PlayDays>19</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(예약완료)</GroupName>
+                    <PlayDate>20150919</PlayDate>
+                    <PlayDays>19</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(예약완료)</GroupName>
+                    <PlayDate>20150919</PlayDate>
+                    <PlayDays>19</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(예약완료)</GroupName>
+                    <PlayDate>20150919</PlayDate>
+                    <PlayDays>19</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(예약완료)</GroupName>
+                    <PlayDate>20150919</PlayDate>
+                    <PlayDays>19</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(7)</GroupName>
+                    <PlayDate>20150920</PlayDate>
+                    <PlayDays>20</PlayDays>
+                    <ProductRemainCount>7</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(69)</GroupName>
+                    <PlayDate>20150920</PlayDate>
+                    <PlayDays>20</PlayDays>
+                    <ProductRemainCount>69</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(14)</GroupName>
+                    <PlayDate>20150920</PlayDate>
+                    <PlayDays>20</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(180)</GroupName>
+                    <PlayDate>20150920</PlayDate>
+                    <PlayDays>20</PlayDays>
+                    <ProductRemainCount>180</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(13)</GroupName>
+                    <PlayDate>20150920</PlayDate>
+                    <PlayDays>20</PlayDays>
+                    <ProductRemainCount>13</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(7)</GroupName>
+                    <PlayDate>20150921</PlayDate>
+                    <PlayDays>21</PlayDays>
+                    <ProductRemainCount>7</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(68)</GroupName>
+                    <PlayDate>20150921</PlayDate>
+                    <PlayDays>21</PlayDays>
+                    <ProductRemainCount>68</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(28)</GroupName>
+                    <PlayDate>20150921</PlayDate>
+                    <PlayDays>21</PlayDays>
+                    <ProductRemainCount>28</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(183)</GroupName>
+                    <PlayDate>20150921</PlayDate>
+                    <PlayDays>21</PlayDays>
+                    <ProductRemainCount>183</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(14)</GroupName>
+                    <PlayDate>20150921</PlayDate>
+                    <PlayDays>21</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(6)</GroupName>
+                    <PlayDate>20150922</PlayDate>
+                    <PlayDays>22</PlayDays>
+                    <ProductRemainCount>6</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(70)</GroupName>
+                    <PlayDate>20150922</PlayDate>
+                    <PlayDays>22</PlayDays>
+                    <ProductRemainCount>70</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(30)</GroupName>
+                    <PlayDate>20150922</PlayDate>
+                    <PlayDays>22</PlayDays>
+                    <ProductRemainCount>30</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(183)</GroupName>
+                    <PlayDate>20150922</PlayDate>
+                    <PlayDays>22</PlayDays>
+                    <ProductRemainCount>183</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(14)</GroupName>
+                    <PlayDate>20150922</PlayDate>
+                    <PlayDays>22</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(5)</GroupName>
+                    <PlayDate>20150923</PlayDate>
+                    <PlayDays>23</PlayDays>
+                    <ProductRemainCount>5</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(69)</GroupName>
+                    <PlayDate>20150923</PlayDate>
+                    <PlayDays>23</PlayDays>
+                    <ProductRemainCount>69</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(27)</GroupName>
+                    <PlayDate>20150923</PlayDate>
+                    <PlayDays>23</PlayDays>
+                    <ProductRemainCount>27</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(183)</GroupName>
+                    <PlayDate>20150923</PlayDate>
+                    <PlayDays>23</PlayDays>
+                    <ProductRemainCount>183</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(14)</GroupName>
+                    <PlayDate>20150923</PlayDate>
+                    <PlayDays>23</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(5)</GroupName>
+                    <PlayDate>20150924</PlayDate>
+                    <PlayDays>24</PlayDays>
+                    <ProductRemainCount>5</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(66)</GroupName>
+                    <PlayDate>20150924</PlayDate>
+                    <PlayDays>24</PlayDays>
+                    <ProductRemainCount>66</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(27)</GroupName>
+                    <PlayDate>20150924</PlayDate>
+                    <PlayDays>24</PlayDays>
+                    <ProductRemainCount>27</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(183)</GroupName>
+                    <PlayDate>20150924</PlayDate>
+                    <PlayDays>24</PlayDays>
+                    <ProductRemainCount>183</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(13)</GroupName>
+                    <PlayDate>20150924</PlayDate>
+                    <PlayDays>24</PlayDays>
+                    <ProductRemainCount>13</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(5)</GroupName>
+                    <PlayDate>20150925</PlayDate>
+                    <PlayDays>25</PlayDays>
+                    <ProductRemainCount>5</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(50)</GroupName>
+                    <PlayDate>20150925</PlayDate>
+                    <PlayDays>25</PlayDays>
+                    <ProductRemainCount>50</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(예약완료)</GroupName>
+                    <PlayDate>20150925</PlayDate>
+                    <PlayDays>25</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(176)</GroupName>
+                    <PlayDate>20150925</PlayDate>
+                    <PlayDays>25</PlayDays>
+                    <ProductRemainCount>176</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(13)</GroupName>
+                    <PlayDate>20150925</PlayDate>
+                    <PlayDays>25</PlayDays>
+                    <ProductRemainCount>13</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(예약완료)</GroupName>
+                    <PlayDate>20150926</PlayDate>
+                    <PlayDays>26</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(예약완료)</GroupName>
+                    <PlayDate>20150926</PlayDate>
+                    <PlayDays>26</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(예약완료)</GroupName>
+                    <PlayDate>20150926</PlayDate>
+                    <PlayDays>26</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(156)</GroupName>
+                    <PlayDate>20150926</PlayDate>
+                    <PlayDays>26</PlayDays>
+                    <ProductRemainCount>156</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(예약완료)</GroupName>
+                    <PlayDate>20150926</PlayDate>
+                    <PlayDays>26</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(예약완료)</GroupName>
+                    <PlayDate>20150927</PlayDate>
+                    <PlayDays>27</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(예약완료)</GroupName>
+                    <PlayDate>20150927</PlayDate>
+                    <PlayDays>27</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(예약완료)</GroupName>
+                    <PlayDate>20150927</PlayDate>
+                    <PlayDays>27</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(140)</GroupName>
+                    <PlayDate>20150927</PlayDate>
+                    <PlayDays>27</PlayDays>
+                    <ProductRemainCount>140</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(예약완료)</GroupName>
+                    <PlayDate>20150927</PlayDate>
+                    <PlayDays>27</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(예약완료)</GroupName>
+                    <PlayDate>20150928</PlayDate>
+                    <PlayDays>28</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(예약완료)</GroupName>
+                    <PlayDate>20150928</PlayDate>
+                    <PlayDays>28</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(예약완료)</GroupName>
+                    <PlayDate>20150928</PlayDate>
+                    <PlayDays>28</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(145)</GroupName>
+                    <PlayDate>20150928</PlayDate>
+                    <PlayDays>28</PlayDays>
+                    <ProductRemainCount>145</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(예약완료)</GroupName>
+                    <PlayDate>20150928</PlayDate>
+                    <PlayDays>28</PlayDays>
+                    <ProductRemainCount>0</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(9)</GroupName>
+                    <PlayDate>20150929</PlayDate>
+                    <PlayDays>29</PlayDays>
+                    <ProductRemainCount>9</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(56)</GroupName>
+                    <PlayDate>20150929</PlayDate>
+                    <PlayDays>29</PlayDays>
+                    <ProductRemainCount>56</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(14)</GroupName>
+                    <PlayDate>20150929</PlayDate>
+                    <PlayDays>29</PlayDays>
+                    <ProductRemainCount>14</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(177)</GroupName>
+                    <PlayDate>20150929</PlayDate>
+                    <PlayDays>29</PlayDays>
+                    <ProductRemainCount>177</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(16)</GroupName>
+                    <PlayDate>20150929</PlayDate>
+                    <PlayDays>29</PlayDays>
+                    <ProductRemainCount>16</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0002</GroupCode>
+                    <GroupName>캐라반B(12)</GroupName>
+                    <PlayDate>20150930</PlayDate>
+                    <PlayDays>30</PlayDays>
+                    <ProductRemainCount>12</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0003</GroupCode>
+                    <GroupName>캐라반사이트A(64)</GroupName>
+                    <PlayDate>20150930</PlayDate>
+                    <PlayDays>30</PlayDays>
+                    <ProductRemainCount>64</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0004</GroupCode>
+                    <GroupName>캐라반사이트B(21)</GroupName>
+                    <PlayDate>20150930</PlayDate>
+                    <PlayDays>30</PlayDays>
+                    <ProductRemainCount>21</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0005</GroupCode>
+                    <GroupName>오토캠핑장(177)</GroupName>
+                    <PlayDate>20150930</PlayDate>
+                    <PlayDays>30</PlayDays>
+                    <ProductRemainCount>177</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+                <anyType xsi:type="ScheduleGroup">
+                    <GroupCode>0009</GroupCode>
+                    <GroupName>캐라반C(17)</GroupName>
+                    <PlayDate>20150930</PlayDate>
+                    <PlayDays>30</PlayDays>
+                    <ProductRemainCount>17</ProductRemainCount>
+                    <GroupKind>010001</GroupKind>
+                    <MaxSaleCount>3</MaxSaleCount>
+                </anyType>
+            </GetScheduleByGroupResult>
+        </GetScheduleByGroupResponse>
+    </soap:Body>
+</soap:Envelope>
+
+        <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                             xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+    <GetScheduleByGroupResponse xmlns="http://tempuri.org/">
+        <GetScheduleByGroupResult/>
+    </GetScheduleByGroupResponse>
+</soap:Body>
+</soap:Envelope>

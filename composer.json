@@ -1,0 +1,20 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "1.*",
+        "mrclay/minify": "2.2.0",
+        "rhumsaa/array_column": "1.1.2",
+        "querypath/querypath": "3.0.3",
+        "jdorn/sql-formatter": "dev-master",
+        "phpoffice/phpexcel": "1.8.1"
+    }
+}

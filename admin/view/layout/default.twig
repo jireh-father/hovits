@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	{{ meta_tag|raw }}
+	<title>{{ title|raw }}</title>
+	{{ header_tag|raw }}
+	{{ external_css_link|raw }}
+	{{ optimized_css_link|raw }}
+	<!--    <link rel="shortcut icon" href="/res/img/favicon.ico" type="image/x-icon"/>-->
+	{{ optimized_css_inline|raw }}
+</head>
+<body>
+{% block content %}{% endblock %}
+{{ external_js_link|raw }}
+{{ optimized_js_link|raw }}
+{{ optimized_js_inline|raw }}
+</body>
+</html>

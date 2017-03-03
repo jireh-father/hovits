@@ -1,0 +1,18 @@
+- parse url
+- make controller, method(action)
+- security parameters
+- 다국어세팅
+- 쿠키세팅 및 보안
+- 세션 세팅 및 보안
+- 훅 세팅
+- response 타입 정하기
+    - 파일다운로드등
+    - view뿌리기
+    - json 혹은 xml 혹은 텍스트 뿌리기
+- resource 압축 (옵티마이저)
+- 리다이렉트 및 이전페이지이동
+-
+
+- 라우터
+- 컨트롤러
+- 디스패쳐

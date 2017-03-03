@@ -1,0 +1,255 @@
+select
+    normal select(list)
+    fetch col(list)
+    fetch key-rows
+    fetch cnt
+    fetch exist
+    fetch one
+
+*    join
+*    sub query
+*   query cache
+
+insert
+update
+delete
+query
+
+param bind 어떻게 처리할건지?(sql injection 처리 때문에)
+
+select(
+
+)
+
+MODEL
+    getList()
+        getAssocList()
+        getValueList()
+    getMap(is_two_dimensional_array)
+        getAssocMap()
+        getValueMap()
+    get()
+        getAssoc()
+        getValue()
+
+    rowCnt()
+    exist()
+
+- select fetch mode
+        list, map, row, rowcnt, exist
+        assoc, normal
+
+
+    모든 get의 조건으로 갈수있어야함: getByIdList()
+
+    add()
+    update()
+
+    remove()
+
+Data array 모양 변형 및 필터 관리 라이브러리
+
+Sql Stmt Module
+- common module = sql item module
+- expr module
+- stmt module
+    col1 = col1 + 1, col2 = col1; (update set)
+    1, 2, 3, 4 (insert values)
+    col1, col2, col3 (insert into)
+    a = 1 and a=2 or b=3 (select, delete, update where)
+
+queryBuilder
+
+queryItem
+
+as 처리(cols, join
+
+- select
+    - cols
+    - from
+    - where
+    - group by
+    - HAVING
+    - order by
+    - limit
+    -
+
+- Clause
+    - select_expr
+    - expr
+    - table_references
+    - where_condition
+    - reserved_word
+    - col_name
+    - position
+    - offset
+    - row_count
+
+- sql builder
+ - select
+ - insert
+ - delete
+ - update
+
+ - beginBuild(select, insert, delete, update)
+    - addWhere
+    - setWhere
+    - setFrom
+    - addFrom
+ - endBuild
+
+
+# expressions
+    * select
+
+     @ select
+      - select col1 as column1,
+        col2 + 1 as column2,
+        (select col1 from test) as column3,
+        연산(if등) as column4,
+        'option_value'(5) as column5
+      - array(
+            'as name' => 'column string',
+            'as name' => obj(sub query)
+        )
+      - params
+       - @string column_name
+       - @string column_name, @string as_name
+       - @array(
+            'as_name' => 'column_name',
+            'column_name'
+            SqlBuilder::명령어
+       )
+
+     @ from
+      - from table1
+      - from (select * from table1) as table2
+      - from table1 join table2 on table1.id = table2.id
+      - from table1, table2, table2
+      - array(
+            'as name' => 'table name',
+            'as name' => obj(sub query),
+            'as name' => obj(join('table name', obj(where expr))),
+        )
+      - params
+       - @string table_name
+       - @string table_name, @string as_name
+       - @array(
+            'as_name' => 'table1',
+            'as_name' => SqlBuilder::join('table2', 'on_expr table1.id=table2.id'),
+            'as_name' => SqlBuilder::left_join('table3', 'on_expr table1.id=table3.id', 'join type = default(join)')
+       )
+
+     @ where
+      - where col1 = '5'
+      - array(
+            'col1' => obj(sub query),
+            'col2' => obj_where(),
+            'col3' => 'val',
+            'col4' => 5,
+            'col5' => 5,
+            '' => group
+      )
+      - params
+       - @string column_name, @string value
+       - @string column_name, @string value, @string comparison_operator
+       - @array (
+            'col1' => 'value1',
+            'col1' => valuePostAst('option_value'),
+            'col2' => @comparison (
+                value, comparison_operator
+            ),
+            'col3' => array(
+                1, 2, 3 // col3 = 1 AND col3 = 2 AND col3 = 3
+            ),
+            array(
+                array(
+                    'col3' => 1, 'col4' => 2
+                ),
+                'col5' => 5
+            ),
+            //( (col3 = 1 AND col4 = 2) AND col5 = 5)
+            @group_or(
+                array(
+                    array(
+                        'col3' => 1, 'col4' => 2
+                    ),
+                    'col5' => 5
+                ),
+            ),
+            //( (col3 = 1 AND col4 = 2) OR col5 = 5)
+            'col4' => @in(array(1,2,3,4,5)),
+            'col4' => @like(),
+            'col4' => @expr('= 3'),
+            @expr(col5 = 5)
+       )
+       - operator_
+       - value_
+     @ group by
+        - @string
+        - @array(
+         'col1',
+         'col2'
+        )
+        - @columns
+     @ having
+        - same where
+     @ order by
+        - @string col
+        - @string col, @string desc/asc
+        - @array(
+            'abc' => 'desc',
+            'abcd',//default ASC
+        )
+     @ limit
+        - number offset number
+        - @string limit offset
+        - @integer limit
+        - @integer limit, @string offset
+
+    * insert
+
+     @ insert
+
+     @ into
+     - insert table
+       - @string table()
+      - col1, col2, col3
+      - @string
+      - @columns
+      - @array
+
+     @ values
+      - ('val1',
+        3,
+        col1)
+      - @string
+      - @valueString
+      - @valueNumeric
+      - @expr
+
+
+    * update
+
+     @ update
+      - update table
+      - @string table
+     @ set
+      - col1 = other_col1,
+        col2 = 'option_value',
+        col3 = 3,
+        col4 = other_col2 + 3
+        - @set(array(
+            'col1' => 'val'
+        ))
+     @ where
+      - select where 동일
+
+
+    * delete
+
+     @ from
+      - from table
+
+     @ where
+     - select where 동일

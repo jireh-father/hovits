@@ -1,0 +1,7 @@
+#부팅시 실행할 프로그램
+아파치
+MYSQL
+
+hg serve -d -p 9000 --config web.push_ssl=No --config "web.allow_push=*"
+
+/root/Downloads/redis-3.0.0/src/redis-server /root/Downloads/redis-3.0.0/redis_jireh.conf

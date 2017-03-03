@@ -1,0 +1,596 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#body-container {
+    margin-top: 90px;
+}
+
+.none-hidden {
+    display: none;
+    visibility: hidden
+}
+
+#tutorial-top-menu {
+    background-color: black;
+    position: fixed;
+    width: 1116px;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#tutorial-top-menu p {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+#tutorial-top-menu #step-icon {
+    margin-right: 10px;
+}
+
+#tutorial-top-menu #progress-bar-box {
+    margin-bottom: 5px;
+    height: 25px;
+}
+
+#tutorial-top-menu #progress-text {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+#top-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    padding: 20px 25px;
+    color: black;
+    font-size: 15px;
+}
+
+#top-log-box {
+    float: left;
+    position: absolute;
+    top: 16px;
+}
+
+#menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+#menu-list li {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+#menu-list li .menu-text {
+    font-weight: bold;
+}
+
+#menu-list a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu-list a:link {
+    color: black;
+}
+
+#menu-list a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+#menu-list a:active {
+    color: black;
+}
+
+#menu-list a:hover {
+    color: black;
+    font-weight: normal;
+}
+
+#user_menu-list a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#user_menu-list a:link {
+    color: black;
+}
+
+#user_menu-list a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+#user_menu-list a:active {
+    color: black;
+}
+
+#user_menu-list a:hover {
+    color: black;
+    font-weight: normal;
+}
+
+#sub-menu {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: 30px;
+    background-color: #F2F2F2;
+    color: #666666;
+    font-size: 12px;
+}
+
+#sub-menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#sub-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#sub-menu li .menu-text {
+    font-weight: bold;
+}
+
+#sub-menu-list a {
+    text-decoration: none;
+}
+
+#sub-menu-list a:link {
+    color: #666666;
+}
+
+#sub-menu-list a:visited {
+    color: #666666;
+    font-weight: bold;
+}
+
+#sub-menu-list a:active {
+    color: #666666;
+}
+
+#sub-menu-list a:hover {
+    color: #666666;
+    font-weight: bold;
+}
+
+#wide-content-list .content-bg-img {
+    background-size: cover;
+    background-position-y: 15%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#wide-match-list .left .content-bg-img {
+    background-size: cover;
+    background-position-y: 20%;
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0 100%, 80% 100%, 100% 0, 0 0);
+}
+
+#wide-match-list .right .content-bg-img {
+    background-size: cover;
+    background-position-y: 20%;
+    width: 58%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content-wide-container {
+    position: relative;
+    height: 394px;
+    max-height: 394px;
+    color: white;
+}
+
+.content-slide {
+    position: relative;
+    height: 430px;
+    max-height: 430px;
+    color: white;
+    padding: 50px 180px;
+}
+
+.content-desc-container p {
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#main_carousel .carousel-control .glyphicon {
+    visibility: hidden;
+}
+
+.progress-bar-gray {
+    background-color: gray;
+}
+
+.label-gray {
+    background-color: gray;
+}
+
+.content-mini-rank-container ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.tooltip-inner {
+    color: black;
+    background-color: white;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: white;
+}
+
+.tooltip.top {
+    padding: 5px 0;
+    margin-top: 3px;
+}
+
+.float-right {
+    float: right;
+}
+
+.content-thumb-container {
+    position: relative;
+    display: inline-block;
+}
+
+.content-wide-list {
+    font-family: 'Apple SD Gothic Neo', '나눔고딕', NanumGothic, '맑은 고딕', 'Malgun Gothic', '돋움', dotum, '굴림', gulim, applegothic, sans-serif;
+    background-color: black
+}
+
+.content-wide-list .rank-number-bg {
+    position: absolute;
+    right: 20px;
+    bottom: -50px;
+    opacity: 0.5;
+    font-size: 250px;
+}
+
+#tutorial-container #content-list {
+    margin-top: 137px;
+    position: relative;
+    width: 100%;
+}
+
+#tutorial-container #content-list .content-thumb-box {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 314px;
+    display: inline-block;
+    position: relative;
+}
+
+#tutorial-container #content-list .content-thumb-box:hover {
+    background-color: black;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#tutorial-container #content-list .content-thumb-box-selected {
+    background-color: black;
+    opacity: 0.3;
+}
+
+#tutorial-container #content-list .content-thumb-box-selected:hover {
+    cursor: not-allowed;
+}
+
+#tutorial-container {
+    width: 1116px;
+    margin: auto;
+    color: white;
+}
+
+#tutorial-container #match-list {
+    margin-top: 141px;
+    position: relative;
+    width: 100%;
+    padding: 0 60px 0 0;
+}
+
+#tutorial-container .content-match-container {
+    display: inline-block;
+    position: relative;
+}
+
+#tutorial-container .versus {
+    position: absolute;
+    left: 205px;
+    top: 150px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.content-wide-box .versus {
+    position: absolute;
+    left: 215px;
+    top: 150px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.horizontal-center {
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+#tutorial-container .content-thumb-box {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+    height: 314px;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    opacity: 0.2;
+}
+
+#tutorial-container .content-thumb-box:hover {
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+#tutorial-container .content-thumb-box-selected {
+    border: 5px solid white;
+}
+
+#tutorial-container .content-thumb-box-selected:hover {
+    cursor: not-allowed;
+}
+
+.content-match-container .content-thumb-box:hover {
+    cursor: pointer;
+    border: 5px solid white;
+}
+
+.content-match-container .content-thumb-box-selected {
+    border: 5px solid white;
+}
+
+.content-match-container .content-thumb-box-selected:hover {
+    cursor: not-allowed;
+}
+
+.content-thumb {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#match-list .glyphicon-ok {
+    position: absolute;
+    font-size: 100px;
+    top: 110px;
+    left: 60px;
+    opacity: 0.7;
+}
+
+#match-list .glyphicon-remove {
+    position: absolute;
+    font-size: 100px;
+    top: 110px;
+    left: 60px;
+    opacity: 0.7;
+}
+
+.content-wide-box {
+    vertical-align: top;
+    padding: 40px;
+    position: relative;
+}
+
+#wide-match-list .left .content-desc-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    position: absolute;
+    left: 0;
+    height: 245px
+}
+
+#wide-match-list .right .content-desc-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    height: 245px
+}
+
+#wide-match-list .left .content-desc-box {
+    width: 100%;
+    padding: 20px 20px 10px 50px;
+    position: relative;
+}
+
+#wide-match-list .right .content-desc-box {
+    width: 100%;
+    padding: 60px 20px 10px 10px;
+    position: relative;
+}
+
+#wide-content-list .content-desc-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding-left: 265px;
+    height: 245px
+}
+
+#wide-content-list .content-desc-box {
+    padding: 20px 20px 10px 20px;
+    position: relative;
+}
+
+.content-wide-box .content-desc-box .content-title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.content-wide-box .content-desc-box .content-count {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-wide-box .content-desc-box .content-info {
+    font-size: 15px;
+}
+
+.content-wide-box .content-desc-box .content-dday {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.content-wide-box .content-desc-box .icon-box-hovits {
+    margin-right: 8px;
+}
+
+.content-wide-box .content-desc-box .icon-hovits {
+    width: 15px;
+    margin-bottom: 5px;
+}
+
+.content-wide-box .content-desc-box .icon-box-cgv {
+    margin-right: 10px;
+}
+
+.content-wide-box .content-desc-box .icon-cgv {
+    width: 30px;
+    margin-bottom: 7px;
+}
+
+.content-wide-box .content-desc-box .icon-box-naver {
+    margin-right: 10px;
+}
+
+.content-wide-box .content-desc-box .icon-naver {
+    width: 16px;
+    margin-bottom: 4px;
+}
+
+.content-wide-box .content-desc-box .icon-box-lotte {
+    margin-right: 10px;
+}
+
+.content-wide-box .content-desc-box .icon-lotte {
+    width: 16px;
+    margin-bottom: 4px;
+}
+
+.content-wide-box .content-desc-box .icon-box-mega {
+    margin-right: 10px;
+}
+
+.content-wide-box .content-desc-box .icon-mega {
+    width: 17px;
+    margin-bottom: 4px;
+}
+
+#wide-content-list .content-bg-bar {
+    width: 100%;
+    height: 245px;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, black), color-stop(90%, rgba(0, 0, 0, 0.1)));
+}
+
+#wide-match-list .left .content-bg-bar {
+    width: 50%;
+    height: 245px;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, black), color-stop(90%, rgba(0, 0, 0, 0.1)));
+}
+
+#wide-match-list .right .content-bg-bar {
+    width: 50%;
+    height: 245px;
+    opacity: 0.2;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, black), color-stop(90%, rgba(0, 0, 0, 0.1)));
+}
+
+.content-wide-container .content-thumb-container {
+    display: inline-block;
+    width: 220px;
+    height: 314px;
+    margin-right: 20px;
+}
+
+.content-wide-container .content-thumb-box {
+    border: none;
+    padding: 0;
+    display: inline-block;
+    width: 220px;
+    height: 314px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.content-wide-container .content-thumb-box:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.content-thumb-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    top: 0;
+}

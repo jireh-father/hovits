@@ -1,0 +1,66 @@
+# PHP Options/Info Functions
+http://kr1.php.net/manual/en/function.getenv.php
+
+# Predefined Variables
+http://kr1.php.net/manual/en/reserved.variables.environment.php
+
+1. php.ini, apache.conf vhost 등 세팅방법 설명
+
+
+<VirtualHost *:80>
+    DocumentRoot "D:/programming/project/jireh"
+    ServerName jireh.com
+#    ErrorLog "logs/dummy-host.example.com-error.log"
+#   CustomLog "logs/dummy-host.example.com-access.log" common
+RewriteEngine on
+RewriteRule ^(.*)$ D:/programming/project/jireh/application/index.php/$1?%{QUERY_STRING} [L]
+<Directory "D:/Programming/Project/jireh">
+
+    #
+    # Possible values for the Options directive are "None", "All",
+    # or any combination of:
+    #   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
+    #
+    # Note that "MultiViews" must be named *explicitly* --- "Options All"
+    # doesn't give it to you.
+    #
+    # The Options directive is both complicated and important.  Please see
+    # http://httpd.apache.org/docs/2.4/mod/core.html#options
+    # for more information.
+    #
+    Options Indexes FollowSymLinks
+
+    #
+    # AllowOverride controls what directives may be placed in .htaccess files.
+    # It can be "All", "None", or any combination of the keywords:
+    #   AllowOverride FileInfo AuthConfig Limit
+    #
+    AllowOverride All
+
+    #
+    # Controls who can get stuff from this server.
+    #
+    Require all granted
+
+</Directory>
+</VirtualHost>
+
+--2014.11.25 옵티마이저 추가
+<VirtualHost *:80>
+    DocumentRoot "D:/develop/jireh_framework"
+    ServerName jireh.com
+    ServerAlias  *.jireh.com
+<Directory "D:/develop/jireh_framework">
+    Options Indexes FollowSymLinks
+
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+
+</Directory>
+RewriteEngine on
+RewriteRule ^/_optimizer  D:/develop/jireh_framework/application/optimizer.php?%{QUERY_STRING} [L]
+RewriteRule ^/_resource  D:/develop/jireh_framework/application/resource.php?%{QUERY_STRING} [L]
+RewriteRule ^/favicon\.ico d:/develop/jireh_framework/application/favicon.ico [L]
+RewriteRule ^(.*)$ d:/develop/jireh_framework/application/index.php/$1?%{QUERY_STRING} [L]
+</VirtualHost>
