@@ -1,4 +1,4 @@
 # hovits
-hovits.com movie ranking site
+Korean movie ranking site
 
 http://www.hovits.com
